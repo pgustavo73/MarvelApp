@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MARVEL</string>
+
+    <string name="tx_item_name">Nome</string>
+    <string name="tv_item_description">The description will be place in here.</string>
+    <string name="text_description_empty">This character does not have description.</string>
+
+    <string name="search_hint">Tap name of character</string>
+
+    <string name="message_delete_character">Deleted successfully!</string>
+    <string name="tv_empty_text">Nothing here.</string>
+
+    <string name="an_error_occurred">An error occurred!</string>
+    <string name="saved_successfully">Saved successfully!</string>
+
+    <string name="favorite">Favorite</string>
+    <string name="label_share_to">Share</string>
+    <string name="share">Share</string>
+</resources>
