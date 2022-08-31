@@ -12,3 +12,7 @@ Technologies:
 - Retrofit
 
 Feel free to look, I am open to tips and suggestions.
+
+<img src="./images/Screenshot_20220831-170422_MARVEL.jpg" /> <img src="./images/Screenshot_20220831-170435_MARVEL.jpg" />
+
+<img src="./images/Screenshot_20220831-170458_MARVEL.jpg" /> <img src="./images/Screenshot_20220831-170458_MARVEL.jpg" />
