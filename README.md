@@ -13,4 +13,4 @@ Technologies:
 
 Feel free to look, I am open to tips and suggestions.
 
-<img src="./images/telas.jpg"
+<img src="./images/telas.jpg">
