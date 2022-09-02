@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="5dp"
+    android:layout_margin="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/profileImage"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="#757575"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_goneMarginBottom="4dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/name"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/desc"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:cardCornerRadius="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#757575"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profileImage" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/desc"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#757575"
+        android:lines="2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+</androidx.constraintlayout.widget.ConstraintLayout>
