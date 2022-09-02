@@ -39,10 +39,13 @@ class FavoriteFragment: BaseFragment<FragmentFavoriteBinding, FavoriteViewModel>
                 is ResourceState.Success -> {
                     resource.data?.let {
                         binding.tvEmptyList.hide()
+                        binding.shimmer.hide()
+                        binding.rvFavoriteCharacter.show()
                         characterAdapter.characters = it.toList()
                     }
                 }
                 is ResourceState.Empty -> {
+                    binding.shimmer.hide()
                     binding.tvEmptyList.show()
                 }
                 else -> {}

@@ -95,6 +95,8 @@ dependencies {
     implementation "com.google.dagger:hilt-android:2.38.1"
     kapt "com.google.dagger:hilt-android-compiler:2.38.1"
 
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
     testImplementation 'junit:junit:4.13.2'
     testImplementation "com.squareup.okhttp3:mockwebserver:4.7.2"
     testImplementation 'androidx.arch.core:core-testing:2.1.0'
